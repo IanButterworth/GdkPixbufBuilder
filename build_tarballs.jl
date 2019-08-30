@@ -15,6 +15,7 @@ sources = [
 script = raw"""
 cd $WORKSPACE/srcdir
 cd gdk-pixbuf-2.36.12/
+export CPPFLAGS="-I${prefix}/include"
 ./configure --prefix=$prefix --host=$target --with-x11
 make -j${nproc}
 make install
