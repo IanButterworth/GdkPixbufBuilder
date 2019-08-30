@@ -31,5 +31,5 @@ deploy:
   file: products/*
   skip_cleanup: true
   on:
-    repo: ianshmean/GTKBuilder
+    repo: ianshmean/GdkPixbufBuilder
     branch: master
