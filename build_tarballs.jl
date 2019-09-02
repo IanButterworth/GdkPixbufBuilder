@@ -35,6 +35,7 @@ products(prefix) = [
 # Dependencies that must be installed before this package can be built
 # Based on http://www.linuxfromscratch.org/blfs/view/8.3/x/gdk-pixbuf.html
 dependencies = [
+    "https://github.com/bicycle1885/ZlibBuilder/releases/download/v1.0.4/build_Zlib.v1.2.11.jl",
     "https://github.com/giordano/Yggdrasil/releases/download/X11-v1.6.8/build_X11.v1.6.8.jl",
     # Glib-related dependencies
     "https://github.com/JuliaPackaging/Yggdrasil/releases/download/PCRE-v8.42-2/build_PCRE.v8.42.0.jl",
